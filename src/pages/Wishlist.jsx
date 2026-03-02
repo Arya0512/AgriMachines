@@ -3,7 +3,7 @@ import { useRating } from "../context/RatingContext";
 import { useWishlist } from "../context/WishlistContext";
 import { useNavigate } from "react-router-dom";
 
-const Wishlist = () => {
+const WishList = () => {
   const { wishlist, removeFromWishlist } = useWishlist();
   const {ratings}=useRating();
   const navigate=useNavigate();
@@ -46,4 +46,4 @@ const Wishlist = () => {
   );
 };
 
-export default Wishlist;
+export default WishList;
