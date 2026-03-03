@@ -1,16 +1,145 @@
-# React + Vite
+# 🌾 AgriMachines – Product Catalog & Machine Comparison Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AgriMachines is a modern React-based e-commerce style web application designed for browsing and comparing agricultural machines.
+Users can explore products, view detailed information, rate machines, add them to a wishlist, and compare machines side-by-side.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### 🛍️ Product Browsing
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* View all agricultural machines
+* Clean and responsive product cards
+* Dynamic routing for each product
 
-## Expanding the ESLint configuration
+### 📄 Product Details Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* View complete machine information
+* See pricing and ratings
+* Easy navigation between pages
+
+### ⭐ Rating System
+
+* Rate machines dynamically
+* Ratings stored using Context API
+* Live rating updates
+
+### ❤️ Wishlist Feature
+
+* Add/remove machines from wishlist
+* Dedicated Wishlist page
+* Persistent UI state management
+
+### ⚖️ Compare Machines Feature
+
+* Add machines to compare list
+* Compare at least 2 machines side-by-side
+* View price, rating, and key details
+* Remove individual machines from comparison
+* Clear entire comparison list
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js
+* **Routing:** React Router DOM
+* **State Management:** React Context API
+* **Styling:** Tailwind CSS
+* **Deployment:** Vercel / Render
+* **Version Control:** Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/
+ │     └── Navbar.jsx
+ │
+ ├── context/
+ │     ├── RatingContext.jsx
+ │     ├── WishlistContext.jsx
+ │     └── CompareContext.jsx
+ │
+ ├── pages/
+ │     ├── Home.jsx
+ │     ├── ProductDetails.jsx
+ │     ├── WishList.jsx
+ │     └── Compare.jsx
+ │
+ ├── App.jsx
+ └── main.jsx
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+
+```
+git clone https://github.com/Arya0512/AgriMachines.git
+```
+
+### 2️⃣ Navigate to Project Folder
+
+```
+cd Product_Catlog
+```
+
+### 3️⃣ Install Dependencies
+
+```
+npm install
+```
+
+### 4️⃣ Start Development Server
+
+```
+npm run dev
+```
+
+---
+
+## 🌍 Live Demo
+
+👉 Add your deployed link here
+Example: https://agri-machines.vercel.app/
+
+---
+
+## 🎯 Key Learning Outcomes
+
+* Advanced state management using multiple Context APIs
+* Dynamic routing with URL parameters
+* Building reusable UI components
+* Implementing comparison logic in React
+* Handling deployment case-sensitivity issues
+* Writing clean and maintainable project structure
+
+---
+
+## 🔮 Future Enhancements
+
+* Add Cart functionality
+* Backend integration (Node.js + MongoDB)
+* Authentication & Authorization
+* Admin panel for adding machines
+* Persistent database storage
+* Advanced filter & search system
+
+---
+
+## 👩‍💻 Author
+
+**Aaru**
+Computer Engineering Student
+Passionate about Web Development & Building Real-World Projects 💚
+
+---
+
+⭐ If you found this project helpful, consider giving it a star on GitHub!
+
